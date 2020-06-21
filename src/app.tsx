@@ -1,11 +1,8 @@
 import React from 'react';
+import Game from './game';
 
-function App() {
+export default function App() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <Game/>
   );
 }
-
-export default App;
